@@ -11,3 +11,4 @@ class PrettyWeatherTest(unittest.TestCase):
         self.assertEqual(pw.sunny, PrettyWeather(113).weather)
         self.assertEqual(pw.unknown, PrettyWeather('unknown').weather)
         self.assertEqual(pw.unknown, PrettyWeather(007).weather)
+
